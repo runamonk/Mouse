@@ -61,7 +61,7 @@ namespace zuul
         public Mouse()
         {
             notifyIcon.Visible = true;
-            notifyIcon.Icon = new System.Drawing.Icon(@Path.GetDirectoryName(Application.ExecutablePath) + "\\hide.ico");
+            notifyIcon.Icon = new System.Drawing.Icon(@Path.GetDirectoryName(Application.ExecutablePath) + "\\mouse.ico");
             notifyIcon.ContextMenu = contextMenu;
             MenuItem menuExit = new MenuItem("Exit");
             menuExit.Click += (sender, args) =>
