@@ -69,16 +69,7 @@
     <Compile Include="Mouse.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Shared\HotKeys\HotKeys\HotKey.cs" />
-    <Compile Include="Shared\HotKeys\HotKeys\ModifierKey.cs" />
-    <Compile Include="Shared\HotKeys\HotKeys\NativeMethods.cs" />
-    <Compile Include="Shared\Icons.cs" />
     <Compile Include="Shared\LowLevelHooks.cs" />
-    <Compile Include="Shared\Toggle.cs">
-      <SubType>Component</SubType>
-    </Compile>
-    <Compile Include="Shared\Utility.cs" />
-    <Compile Include="Shared\WindowTracker.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="blank_cursor.cur">
@@ -89,9 +80,6 @@
     </Content>
     <Content Include="Shared\.gitattributes" />
     <Content Include="Shared\.gitignore" />
-    <Content Include="Shared\HotKeys\HotKeys.sln" />
-    <Content Include="Shared\HotKeys\HotKeys\HotKey.ico" />
-    <Content Include="Shared\HotKeys\HotKeys\HotKey.png" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.8">
@@ -106,7 +94,6 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Shared\HotKeys\LICENSE" />
     <None Include="Shared\README.md" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
