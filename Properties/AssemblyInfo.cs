@@ -5,7 +5,7 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("zuulMouse")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("A simple tool to hide the mouse cursor while typing")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
 [assembly: AssemblyProduct("zuulMouse")]
