@@ -13,7 +13,7 @@ namespace zuul
         private LowLevelHooks hooks = new LowLevelHooks();
 
         private bool cursorIsHidden = false;
-        private int mouseTimeoutSeconds = 10;
+        private int mouseTimeoutSeconds = 3;
 
         // Windows cursor constants. https://learn.microsoft.com/en-us/windows/win32/api/winuser/nf-winuser-setsystemcursor
         private string[] cursors = { "32512", "32513", "32514", "32515", "32516", "32642", "32643", "32644", "32645", "32646", "32648", "32649", "32650" };
